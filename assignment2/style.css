@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    pad: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.pageWrapper{
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.myList{
+    list-style:lower-alpha ;
+}
