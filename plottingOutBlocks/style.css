@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    padding: 1em;
+    background-color: grey;
+    overflow: hidden;
+}
+.top{
+    height: 100px;
+    background-color: green;
+    margin-top: 1em;
+}
+
+.middle{
+    height: 100px;
+    margin-top: 1em;
+    background-color: red;
+    min-height: 300px;
+    align-items: center;
+    justify-content: space-around;
+}
+.upperDeck{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.block{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    margin-top: 1em;
+}
+
+.lowerDeck{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+.purple{
+    background-color: purple;
+    height: 75px;
+    width: 90%
+}
