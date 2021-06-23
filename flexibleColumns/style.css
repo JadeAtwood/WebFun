@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.col{
+    flex: 1;
+    background-color: gray;
+    color: ghostwhite;
+    margin: 5%;
+    padding: 5px;
+}
+
+.col-2{
+    flex: 2;
+    background-color: gray;
+    color: ghostwhite;
+    margin: 5%;
+    padding: 5px;
+}
+.col-3{
+    flex: 3;
+    background-color: gray;
+    color: ghostwhite;
+    margin: 5%;
+    padding: 5px;
+}
