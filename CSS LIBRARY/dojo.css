@@ -1,0 +1,78 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+      
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+  /* sleek Button */
+.btn{
+    border-radius: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: slategray;
+    color: ghostwhite;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.col{
+    flex: 1;
+    background-color: gray;
+    color: ghostwhite;
+    margin: 5%;
+    padding: 5px;
+}
+          /* sticky flexible Navbar */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.nav-title{
+    display: flex;
+    color: ghostwhite;
+    padding-left: 10px;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: grey;
+}
+.items{
+    padding: 3px; 
+    text-decoration: none;
+}
+
+.active{
+    color: ghostwhite;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: darkturquoise;
+    color: ghostwhite;
+    padding: 3px;
+}
+      /* end of the Navbar */
