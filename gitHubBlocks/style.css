@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pageWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title{
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+}
+
+.top{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.middle{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bottom{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foot{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content{
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+}
