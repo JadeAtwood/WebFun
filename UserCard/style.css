@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, bold;
+}
+
+.wrapper{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2em;
+    outline: solid grey 1px;
+}
+
+.top{
+    background-color: gray;
+    height: 4em;
+}
+.whitespace{
+    height: 2em;
+}
+
+.bottom{
+    margin-left: 1em;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 2em;
+}
+
+.imgHolder{
+    height: 1em;
+}
+
+.pic{
+    height: 1.25em;
+    margin-right: .5em;
+}
+.seattle{
+    font-weight: 600;
+}
+
+.about{
+    font-weight: 600;
+}
+
+.aboutTwo{
+    font-weight: 600;
+}
+
+.profile{
+    display: flex;
+    height: 2em;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.picTwo{
+    height: 4em;
+    margin-top: -2em;
+    margin-left: 1em;
+    position: absolute;
+}
