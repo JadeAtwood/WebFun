@@ -17,7 +17,7 @@
     margin-left: 20%;
 }
 .nav-title{
-    display: flex;
+    display: inline-block;
     color: ghostwhite;
 }
 
@@ -55,7 +55,7 @@ a{
     background-color: darkturquoise;
     color: ghostwhite;
     padding: 3px;
-    margin-left: 6em;
+    margin-left: 10em;
 }
 
 .wrapper{
