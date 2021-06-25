@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="nav">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="search" name="search" id="search">
+            <button class = "btn" onclick="logout(this)">Login</button>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="leftC">
+            <div class="definition">
+                <div class="lSide">
+                    <h2>ninja</h2>
+                    <p>noun</p>
+                    <div class="def">
+                        <p>Plural: </p> <p id = "ital">ninjas</p>
+                    </div>
+                    <button class = "likes" href="#">13 likes</button>
+                </div>
+                <div class="rSide">
+                    <div class="textarea">A practicioner skilled in the <a href="#">Japaneese</a> art of <a href="#">ninjutsu</a></div>
+                </div>               
+            </div>
+            <div class="definitionTwo">
+                <div class="lSide">
+                    <h2>ninja</h2>
+                    <p>noun</p>
+                    <div class="def">
+                        <p>Plural: </p> <p id ="ital">ninjas</p>
+                    </div>
+                    <button class = "likes" href="#" onclick="alert('like was clicked')">37 likes</button>
+                </div>
+                <div class="rSide">
+                    <div class="textarea">A <a href="#">Programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</div>
+                </div>               
+            </div>
+        </div>
+        <div class="rightC">
+            <div class="add">
+                <h3 class="top">Dojonary is defined by <strong>YOU</strong></h3>
+                <button class ="greenBtn" onclick="this.remove()">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
