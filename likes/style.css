@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', sans-serif;
+}
+
+.nav{
+    background-color: black;
+    color: ghostwhite;
+    position: fixed;
+    width: 70%;
+    margin-left: 15%;
+    font-weight: 800;
+    height: 2em;
+}
+
+.content{
+    width:80%;
+    margin-left: 10%;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lCol{
+    align-items: baseline;
+    flex: 1;
+    outline: solid red 3px;
+}
+
+.rCol{
+    align-items: baseline;
+    flex: 2;
+    outline: solid red 3px;
+}
+
+#feed{
+    font-weight: 800;
+    margin-top: 2em;
+}
+.box{
+    border: solid Black 2px;
+    font-weight: 600;
+    padding: 1em;
+    margin: 1em;
+
+}
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lower{
+    align-items: center;
+}
+
+#likeBtn{
+    background-color: peachpuff;
+    border: solid Black 2px;
+}
