@@ -5,28 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Likes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="nav">
-        <h3>Network</h3>
+        <h1>Network</h1>
     </div>
     <div class="content">
-        <div>
-            <div id="feed">Your Feed</div>
+        <div class = "theFeed"> 
+            <H1 id="feed">Your Feed</H1>
         </div>
         <div class="main">
             <div class="lCol">
                 <div id="user">
-                    <div class="avatar">image here</div>
+                    <div class="avatar">
+                        <img class ="pic" src="user-circle.png" alt="Some Dude">
+                    </div>
+                    <p><a href="#">Add an avatar</a></p>
+                    <h2>James Doe</h2>
                 </div>
-                <p><a href="#">Add an avatar</a></p>
-                <h2>James Doe</h2>
             </div>
             <div class="rCol">
                 <div class="box">
                     <div class="upper">
-                        <h2>Some User</h2>
+                        <h2>Neil M</h2>
                         <p id = "count1">3 likes</p>
                         <button id = likeBtn onclick="myCounter1(this)">Like</button>
                     </div>
@@ -36,7 +41,7 @@
                 </div>
                 <div class="box">
                     <div class="upper">
-                        <h2>Some User</h2>
+                        <h2>Nichole k</h2>
                         <p id = "count2">12 likes</p>
                         <button id = likeBtn onclick="myCounter2(this)">Like</button>
                     </div>
@@ -46,7 +51,7 @@
                 </div>
                 <div class="box">
                     <div class="upper">
-                        <h2>Some User</h2>
+                        <h2>Jim R</h2>
                         <p id = "count3">36 likes</p>
                         <button id = likeBtn onclick="myCounter3(this)">Like</button>
                     </div>

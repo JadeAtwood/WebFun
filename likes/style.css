@@ -1,45 +1,54 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:'Trebuchet MS', sans-serif;
+    font-family: 'Comic Neue', cursive;
 }
 
 .nav{
     background-color: black;
     color: ghostwhite;
     position: fixed;
-    width: 70%;
-    margin-left: 15%;
-    font-weight: 800;
+    width: 60%;
+    margin-left: 20%;
     height: 2em;
+    padding: 1em;
 }
 
 .content{
-    width:80%;
-    margin-left: 10%;
+    width:60%;
+    margin-left: 20%;
+}
+
+.theFeed{
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    font-weight: 800;
+
 }
 
 .main{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items:initial;
+    justify-content:space-between;
 }
 
 .lCol{
-    align-items: baseline;
+    align-items:inherit;
     flex: 1;
-    outline: solid red 3px;
+    padding-left: 1em;
+    margin-top: 1em;
 }
 
 .rCol{
     align-items: baseline;
-    flex: 2;
-    outline: solid red 3px;
+    flex: 3;
 }
 
 #feed{
     font-weight: 800;
     margin-top: 2em;
+    width: 100%;
 }
 .box{
     border: solid Black 2px;
@@ -60,4 +69,13 @@
 #likeBtn{
     background-color: peachpuff;
     border: solid Black 2px;
+}
+
+.pic{
+    height: 100px;
+    width: 100px;
+}
+#user{
+    padding: 1em;
+    border: solid black 2px;
 }
