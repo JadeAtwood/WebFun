@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, bold;
+}
+.nav{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+}
+
+.navContent{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 60%;
+    margin-left: 20%;
+}
+.nav-title{
+    display: inline-block;
+    color: ghostwhite;
+}
+
+.navListHolder{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: grey;
+}
+.items{
+    padding: 3px; 
+    text-decoration: none;
+}
+
+
+.active{
+    color: ghostwhite;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: darkturquoise;
+    color: ghostwhite;
+    padding: 3px;
+    margin-left: 10em;
+}
+
+.wrapper{
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftCol{
+    flex: 2;
+    margin-top: 2em;
+    margin-right: 1em;
+}
+
+.rightCol{
+    flex: 1;
+    margin-top: 2em;
+}
+
+.userCard{
+    width: 100%;
+    margin-top: 2em;
+    outline: solid grey 1px;
+}
+
+.top{
+    background-color: gray;
+    height: 4em;
+}
+.whitespace{
+    height: 2em;
+}
+
+.bottom{
+    margin-left: 1em;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 2em;
+}
+
+.imgHolder{
+    height: 1.25em;
+}
+
+.pic{
+    height: 1.25em;
+    margin-right: .5em;
+}
+.seattle{
+    font-weight: 600;
+}
+
+.about{
+    font-weight: 600;
+}
+
+.aboutTwo{
+    font-weight: 600;
+}
+
+.profile{
+    display: flex;
+    height: 2em;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.picTwo{
+    height: 4em;
+    margin-top: -2em;
+    margin-left: 1em;
+    position: absolute;
+}
+
+.info{
+    margin-top: 2.5em;
+    outline: 2px solid darkslategray;
+}
+
+.head{
+    background-color: darkslategray;
+    color: ghostwhite;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.eduDetails{
+    margin-left: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+#date{
+    color: grey;
+}
+.requestDetails{
+    margin-left: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-top: 2px;
+}
+.request{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    margin: 2px;
+}
+
+.nombre{
+    text-align: left;
+    font-weight: 600;
+}
+
+.iconHolder{
+    align-items: center;
+    justify-content: end;
+    margin-left: 2em;
+}
+
+.more{
+    text-align: left;
+    padding-left: 1em;
+    outline: solid slategray 2px;
+}
+
+#mo{
+    text-decoration: underline;
+    color: blue;
+}
+
