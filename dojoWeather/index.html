@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="billboard">
+            <div class="sign">DojoWeather</div>
+            <ol class="cities">
+                <li onclick="dontGo(this)">Burbank</li>
+                <li onclick="dontGo(this)">Chicago</li>
+                <li onclick="dontGo(this)">Dallas</li>
+            </ol>
+        </div>
+    </div>
+    <div class="pageWrapper" onload="popup(this)">
+        <div class="whiteBoard">
+            <div class="currentLoc">San Jose</div>
+            <div class="temperatureBlock">
+                <label id= "tempSpacer">show temperature in</label>
+                <select onchange="change()">
+                    <option value="celcius">&#186 C</option>
+                    <option value="farenhieght">&#186 F</option>
+                </select>
+            </div>
+        </div>
+        <div class="main">
+            <div class="forcastHolder1">
+                <h3>Today</h3>
+                <img class="pic" src="some_rain.png" alt="it's a disaster!">
+                <p>some rain</p>
+                <div class="temps">
+                    <div id="high1">&#186 24</div>
+                    <div id="low1">&#186 18</div>
+                </div>
+            </div>
+            <div class="forcastHolder">
+                <h3>Today</h3>
+                <img class="pic" src="some_sun.png" alt="it's a disaster!">
+                <p>some sun</p>
+                <div class="temps">
+                    <div id ="high2">&#186 24</div>
+                    <div id ="low2">&#186 18</div>
+                </div>
+            </div>
+            <div class="forcastHolder">
+                <h3>Today</h3>
+                <img class="pic" src="some_clouds.png" alt="it's a disaster!">
+                <p>some clouds</p>
+                <div class="temps">
+                    <div id="high3">&#186 24</div>
+                    <div id="low3">&#186 18</div>
+                </div>
+            </div>
+            <div class="forcastHolder">
+                <h3>Today</h3>
+                <img class="pic" src="some_sun.png" alt="it's a disaster!">
+                <p>some sun</p>
+                <div class="temps">
+                    <div id="high4">&#186 24</div>
+                    <div id="low4">&#186 18</div>
+                </div>
+            </div>
+        </div>
+        <div  id="popUp">
+            <img id = "pic3" src="cookie.png" alt="click me">
+            <div class="textBox">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to previde social media features and to analyse our traffice. <a href="#">Read more...</a></p>
+            </div>
+            <button class ="accept" onclick="hide()">I accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
