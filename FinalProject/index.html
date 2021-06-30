@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="topRow">
+            <div class="justdessert">
+                <h1 id='just'>Just</h1><h1 id="dessert">Dessert</h1>
+            </div>
+            <div class="rightSide">
+                <button id="join" onclick="hide()">Join</button>
+                <button id="login">Login</button>
+            </div>
+        </div>
+        <div class="bottomRow">
+            <div class="leftNav">
+                <input type="search" name="search" id="search" >
+                <label for "search" id="searchclicker" onclick="searching()">GO</label>
+            </div>
+            <div class="rightNav">
+                <div class="holder">
+                    <img class ="pic" src="cake.png" alt="whaat?">
+                    <p>Cakes</p>
+                </div>
+                <div class="holder">
+                        <img class ="pic" src="ice-cream.png" alt="whaaat">
+                        <p>Ice Cream</p>
+                </div>
+                <div class="holder">
+                        <img class ="pic" src="cookie.png" alt="whaaat">
+                        <p>Cookies</p>
+                    </div>
+                <div class="holder">
+                        <img class ="pic" src="pie.png" alt="whaaat">
+                    <p>Pies</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pageWrapper">
+        <div class="leftContent">
+            <h2 id="recipe">Recipe of the Day</h2>
+            <img id="bigPic" src="orange-tart.jpg" alt="whaaat">
+            <div class="bottomContent">
+                <div class="toprow">
+                    <p>Orange Tea Jelly Tort</p>
+                    <div class="right">
+                        <img onclick ="like1()" class="smallHeart" src="heart.png" alt="whaaat">
+                        <p class="likes" id= 'likes1'>68</p>
+                    </div>
+                </div>
+                <p>by: <a href="#">yuripiano</a></p>
+                <h3 id="fullRecipe" ><a href="#">See Full Recipe</a></h3>
+            </div>
+        </div>
+        <div class="rightContent">
+            <h3 id='reccommend'>Reccommended for you:</h3>
+            <div class="holder2">
+                <img class="medPic" src="macarons.jpg" alt="whaaat">
+                <div class="toprow">
+                    <p>Macaroons</p>
+                    <div class="right">
+                        <img onclick ="like2()"  class="smallHeart" src="heart.png" alt="whaaat">
+                        <p class="likes" id='likes2'>212</p>
+                    </div>  
+                </div>        
+                <p>by: <a href="#">Emile W</a></p>  
+            </div>
+            <div class="holder2">
+                <img class="medPic" src="creme-brulee.jpg" alt="whaaat">
+                <div class="toprow">
+                    <p>Creme Brulee</p>
+                    <div class="right">
+                        <img onclick ="like3()"  class="smallHeart" src="heart.png" alt="whaaat">
+                        <p class = "likes" id='likes3'>33</p>
+                    </div>  
+                </div>        
+                <p>by: <a href="#">Marissa G</a></p>  
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
